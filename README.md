@@ -1,198 +1,420 @@
 ![cover_photo](cover_image.png) 
-# SALES PERFORMANCE ANALYSIS
+# 📊 Sales Performance Analysis
 
-## PROJECT OVERVIEW
-This project focuses on the analysis of historical sales data using Microsoft Excel. The purpose of the project was to transform transactional sales data into meaningful information that could be used to understand revenue performance across different regions, salespeople, product types, years, and months.
-The original dataset contained sales transactions covering the period from 2013 to 2015. Each transaction included information about the year, month, product type, salesperson, region, sales value, units sold, and order number.
-The dataset was reviewed and prepared before being analyzed using Excel. PivotTables and charts were used to summarize the data and identify patterns in sales performance. A dashboard was subsequently developed to provide a consolidated visual representation of the major performance indicators and sales trends.
-The analysis recorded 444 transactions, representing 2,322,594 units sold and total sales revenue of 3,254,576.95. The Central region generated the highest revenue, Parker recorded the highest sales among the salespeople, Ice Cream was the highest-revenue product type, 2014 recorded the highest annual revenue, and April generated the highest revenue among the months represented in the dataset.
+### Excel-Based Data Analytics & Dashboard Project
 
-## BUSINESS PROBLEM
-### Background
-Sales data provides businesses with important information about financial and operational performance. However, raw transactional records can be difficult to interpret without appropriate analysis and visualization.
-This project was developed to analyze historical sales records and transform them into useful business information. The analysis focuses on identifying patterns in revenue across different regions, salespeople, product types, years, and months.
-Microsoft Excel was used as the primary analytical tool because it provides capabilities for data organization, calculations, PivotTables, charts, and dashboard development.
-### Purpose of the Project
-The purpose of this project is to analyze historical sales performance and provide a clear visual representation of the results.
-•	Overall sales performance
-•	Regional revenue distribution
-•	Salesperson performance
-•	Product type performance
-•	Yearly sales trends
-•	Monthly sales patterns
-•	Transaction and unit volumes
+![Sales Performance Dashboard](assets/sales-performance-dashboard.png)
 
-## PROJECT OBJECTIVES
-1.	Examine the structure and quality of the sales dataset.
-2.	Organize the sales information for analysis.
-3.	Calculate total sales revenue.
-4.	Determine the total number of units sold.
-5.	Determine the total number of transactions.
-6.	Analyze revenue by region.
-7.	Analyze revenue by salesperson.
-8.	Analyze revenue by product type.
-9.	Compare sales performance across years.
-10.	Analyze monthly revenue performance.
-11.	Identify the highest-performing categories.
-12.	Create charts that communicate the findings clearly.
-13.	Develop a sales-performance dashboard.
-14.	Generate useful business insights from the analysis.
+> A Microsoft Excel project that transforms historical sales transactions into useful business insights through data-quality checks, PivotTables, PivotCharts, and an interactive-style dashboard.
 
-## BUSINESS QUESTIONS
+**Prepared by:** Akachukwu Anthony-Okwugha  
+**Project period covered:** 2013–2015  
+**Documentation date:** October 2026  
+**Tools:** Microsoft Excel · Formulas · PivotTables · PivotCharts · Dashboard Development
+
+---
+
+## 📌 Table of Contents
+
+- [🔎 Project Overview](#-project-overview)
+- [🎯 Project Objectives](#-project-objectives)
+- [❓ Business Questions](#-business-questions)
+- [🗂️ Dataset Description](#️-dataset-description)
+- [🧹 Data Cleaning and Preparation](#-data-cleaning-and-preparation)
+- [⚙️ Analysis Methodology](#️-analysis-methodology)
+- [📈 Analysis and Findings](#-analysis-and-findings)
+- [📊 Dashboard](#-dashboard)
+- [💡 Key Insights](#-key-insights)
+- [✅ Recommendations](#-recommendations)
+- [⚠️ Limitations](#️-limitations)
+- [🧰 Tools and Skills](#-tools-and-skills)
+- [🖼️ Project Screenshots](#️-project-screenshots)
+- [🏁 Conclusion](#-conclusion)
+
+---
+
+## 🔎 Project Overview
+
+This project analyzes historical sales data using Microsoft Excel to understand revenue performance across regions, salespeople, product types, years, and months.
+
+The supplied dataset contains **444 sales transactions** from 2013 to 2015. Each record includes the year, month, product type, salesperson, region, sales value, units sold, and order number. After checking and preparing the data, PivotTables and charts were used to summarize performance and identify patterns. A dashboard was then developed to present key performance indicators (KPIs) and sales trends in one place.
+
+### 📍 Headline Results
+
+| KPI | Result |
+|---|---:|
+| 💰 Total Sales Revenue | **3,254,576.95** |
+| 📦 Total Units Sold | **2,322,594** |
+| 🧾 Total Transactions | **444** |
+| 🛒 Average Sales per Transaction | **7,330.13** |
+
+*Note: The source documentation does not specify a currency, so no currency symbol has been added.*
+
+---
+
+## 🎯 Project Objectives
+
+- Inspect the structure and quality of the sales dataset.
+- Prepare and organize the data for analysis.
+- Calculate total sales revenue, units sold, and transactions.
+- Analyze revenue by region, salesperson, and product type.
+- Compare yearly performance and examine monthly revenue patterns.
+- Identify the highest- and lowest-performing categories.
+- Communicate findings through charts and a sales dashboard.
+- Generate practical business insights and recommendations.
+
+## ❓ Business Questions
+
 ### Overall Performance
-1.  What is the total revenue generated?
-2.	How many units were sold?
-3.	How many transactions were recorded?
-### Regional Analysis
-4.	Which region generated the highest revenue?
-5.	Which region generated the lowest revenue?
-6.	How is revenue distributed across the regions?
-### Salesperson Analysis
-7.	Which salesperson generated the highest revenue?
-8.	Which salesperson generated the lowest revenue?
-9.	How does revenue compare across salespeople?
-### Product Analysis
-10.	Which product type generated the highest revenue?
-11.	Which product type generated the lowest revenue?
-12.	How does revenue compare across product types?
-### Time Analysis
-13.	Which year generated the highest revenue?
-14.	Which month generated the highest revenue?
-15.	How did revenue change across the analyzed years?
+1. What is the total revenue generated?
+2. How many units were sold?
+3. How many transactions were recorded?
 
-## DATASET DESCRIPTION
-The raw dataset was provided in an Excel workbook named sales_raw-dataset.xlsx. The dataset contains 444 sales transaction records and 8 columns.
-
-Product types represented:
-•	Ice Cream
-•	Frozen Yogurt
-•	Popsicles
-•	Tasty Treats
-Regions represented:
-•	Central
-•	North
-•	South
-•	West
-Salespeople represented:
-•	Bishop
-•	Lee
-•	Parker
-•	Pullen
-•	Watson
-Months represented:
-•	January
-•	February
-•	March
-•	April
-•	May
-•	November
-•	December
-
-## DATA CLEANING and PREPARATION
-### Checking Missing Values
-All eight columns were checked for missing values. The final dataset contained 0 missing values across all eight fields.
-### Checking Duplicate Records
-The dataset was checked for duplicate rows. The analysis identified 0 exact duplicate rows, so no duplicate records needed to be removed.
-### Checking Order Numbers
-There were 444 unique order numbers across 444 records, indicating a one-to-one relationship between the recorded transaction rows and their order numbers in the supplied dataset.
-### Data Types
-
-### Sales Calculation
-The completed workbook contains calculated sales values. In several rows, the Sales field is calculated using the Units field multiplied by a factor of 1.5.
-Sales = Units × 1.5
-For example: 1,597 units × 1.5 = 2,395.50 sales.
-
-## DATA ANALYSIS METHODOLOGY
-The analysis followed the workflow below:
-Raw Sales Data  ↓
-Data Inspection  ↓
-Data Quality Checks  ↓
-Data Preparation  ↓
-PivotTables  ↓
-Revenue Summaries  ↓
-Charts  ↓
-Dashboard  ↓
-Business Insights
-The main analytical metric was Sales/Revenue. Revenue was analyzed across region, salesperson, product type, year, and month. Additional performance indicators included total sales, total units, and total transactions.
-
-## SALES ANALYSIS and FINDINGS
-### Overall Sales Performance
-
-### Regional Sales Performance 
-
-![Regional Sales Perfomanc](sales-by-region-pivottable.png)
+### Regional Performance
+4. Which region generated the highest revenue?
+5. Which region generated the lowest revenue?
+6. How is revenue distributed across regions?
 
 ### Salesperson Performance
+7. Which salesperson generated the highest revenue?
+8. Which salesperson generated the lowest revenue?
+9. How does revenue compare across salespeople?
 
-![Salesperson Performance](sales-by-salesperson.png)
+### Product Performance
+10. Which product type generated the highest revenue?
+11. Which product type generated the lowest revenue?
+12. How does revenue compare across product types?
 
+### Time-Based Performance
+13. Which year generated the highest revenue?
+14. Which recorded month generated the highest revenue?
+15. How did revenue change across the analyzed years?
 
-## DASHBOARD DEVELOPMENT
-A dedicated dashboard was created in sales-performance-dashboard.xlsx. The dashboard consolidates the major findings into a single visual interface, combining key performance indicators with revenue analysis by month, year, region, salesperson, and product type.
+---
 
-### Dashboard KPI
+## 🗂️ Dataset Description
 
-### Dashboard Visualization
-•	REVENUE
-•	REVENUE BY YEAR
-•	REVENUE BY REGION
-•	REVENUE BY SALESPERSON
-•	REVENUE BY TYPE
-### Dashboard Purpose
-The dashboard was designed to reduce the need to manually examine individual tables. It allows users to quickly identify total revenue, total units, transaction volume, regional performance, salesperson performance, product performance, annual performance, and monthly revenue patterns.
+The source workbook is identified in the project documentation as `sales_raw-dataset.xlsx`.
 
-## KEY INSIGHTS
-Overall Revenue — The dataset generated total sales of 3,254,576.95 across 444 transactions.
-Central Region — The Central region generated the highest revenue, 1,391,555.30, representing approximately 42.8% of total revenue.
-Salesperson Performance — Parker generated the highest revenue among the five salespeople, 760,122.80.
-Product Performance — Ice Cream was the highest-revenue product type at 1,379,573.20, representing approximately 42.4% of total revenue.
-Annual Performance — 2014 generated the highest annual revenue at 1,138,686.00.
-Monthly Performance — April was the highest-performing recorded month at 640,494.40.
+### Dataset Profile
 
-## RECOMMENDATION
-Examine the Central Region — Because Central generated the largest share of revenue, management could investigate the customer, product, salesperson, and transaction factors contributing to its performance.
-Investigate Lower-Performing Regions — The South region recorded the lowest revenue. Further analysis could determine whether this relates to transaction volume, customer count, product mix, sales coverage, or market conditions.
-Monitor Product Performance — Ice Cream generated substantially more revenue than the other product categories. Its demand, inventory, pricing, and regional performance should be monitored while lower-performing products are investigated.
-Review Salesperson Performance — Differences in salesperson revenue could be examined alongside transaction count, units sold, average transaction value, customer count, and region to provide greater context.
-Investigate Monthly Patterns — April generated the highest revenue among recorded months. Further information on promotions, seasonality, customer behavior, and product availability could help explain this pattern.
+| Attribute | Value |
+|---|---:|
+| Transaction records | 444 |
+| Columns | 8 |
+| Years covered | 2013, 2014, 2015 |
+| Product types | 4 |
+| Salespeople | 5 |
+| Regions | 4 |
+| Recorded months | 7 |
 
-## CONCLUSION
-This project demonstrated how Microsoft Excel can be used to transform raw sales transaction data into meaningful business information. The analysis examined 444 transactions covering 2013–2015 and included product types, salespeople, regions, sales revenue, units sold, months, and order numbers.
-The analysis produced several important findings. Total sales amounted to 3,254,576.95, while total units sold reached 2,322,594. The Central region generated the highest revenue, Parker was the highest-revenue salesperson, and Ice Cream was the highest-revenue product type. At the annual level, 2014 produced the highest revenue, while April was the highest-performing recorded month.
-The completed dashboard provides a consolidated visual representation of these results and demonstrates how Excel can be used not only for calculations but also for business analysis and data visualization.
+### Column Reference
 
-## LIMITATION
-Incomplete Monthly Coverage — The dataset contains records for only seven months: January, February, March, April, May, November, and December. June through October have no records.
-Limited Business Variables — The dataset does not include customer information, marketing expenditure, cost of goods sold, profit, discounts, inventory, or competitor information.
-Historical Dataset — The analysis is based on historical records from 2013–2015 and therefore describes the supplied historical data.
-Limited Context for Performance Differences — The dataset shows differences between regions, salespeople, and products but does not establish the reasons behind those differences.
+| Field | Description |
+|---|---|
+| `Year` | Year in which the transaction occurred |
+| `Month` | Month in which the transaction occurred |
+| `Type` | Type of product sold |
+| `Salesperson` | Salesperson responsible for the transaction |
+| `Region` | Geographic sales region |
+| `Sales` | Revenue generated from the transaction |
+| `Units` | Number of units sold |
+| `Order #` | Transaction/order identifier |
 
-## TOOLS and SKILLS DEMONSTRATED
+### Categories in the Dataset
+
+- **Product types:** Ice Cream, Frozen Yogurt, Popsicles, Tasty Treats
+- **Regions:** Central, North, South, West
+- **Salespeople:** Bishop, Lee, Parker, Pullen, Watson
+- **Recorded months:** January, February, March, April, May, November, December
+
+---
+
+## 🧹 Data Cleaning and Preparation
+
+The dataset was checked before the analysis.
+
+| Check | Result |
+|---|---|
+| Missing values | 0 across all 8 fields |
+| Exact duplicate rows | 0 |
+| Unique order numbers | 444 across 444 records |
+| Data types | Reviewed for all fields |
+
+### Data Types
+
+| Field | Data type |
+|---|---|
+| `Year` | Integer |
+| `Month` | Text |
+| `Type` | Text |
+| `Salesperson` | Text |
+| `Region` | Text |
+| `Sales` | Decimal/Number |
+| `Units` | Integer |
+| `Order #` | Integer |
+
+### Sales Calculation
+
+The source documentation states that the `Sales` value is calculated in several rows as:
+
+```text
+Sales = Units × 1.5
+```
+
+**Example:** `1,597 units × 1.5 = 2,395.50 sales`
+
+---
+
+## ⚙️ Analysis Methodology
+
+The project followed this workflow:
+
+```text
+Raw Sales Data
+      ↓
+Data Inspection
+      ↓
+Data Quality Checks
+      ↓
+Data Preparation
+      ↓
+PivotTables
+      ↓
+Revenue Summaries
+      ↓
+Charts
+      ↓
+Dashboard
+      ↓
+Business Insights
+```
+
+The main metric was **Sales/Revenue**. Revenue was compared across region, salesperson, product type, year, and month. Additional indicators included total units and total transactions.
+
+---
+
+## 📈 Analysis and Findings
+
+### 1. Overall Sales Performance
+
+| KPI | Result |
+|---|---:|
+| Total Sales | 3,254,576.95 |
+| Total Units | 2,322,594 |
+| Total Transactions | 444 |
+| Average Sales per Transaction | 7,330.13 |
+
+The dataset recorded **3,254,576.95** in total sales across 444 transactions. Average sales per transaction were approximately **7,330.13**.
+
+### 2. Regional Sales Performance
+
+| Region | Revenue |
+|---|---:|
+| Central | 1,391,555.30 |
+| North | 760,122.80 |
+| West | 596,929.90 |
+| South | 505,968.95 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Central — 1,391,555.30
+- Lowest: South — 505,968.95
+- Central contributed approximately **42.8%** of total revenue.
+
+![Revenue by Region](assets/regional-analysis.png)
+
+### 3. Salesperson Performance
+
+| Salesperson | Revenue |
+|---|---:|
+| Parker | 760,122.80 |
+| Lee | 740,578.40 |
+| Watson | 650,976.90 |
+| Bishop | 596,929.90 |
+| Pullen | 505,968.95 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Parker — 760,122.80
+- Lowest: Pullen — 505,968.95
+
+![Revenue by Salesperson](assets/salesperson-analysis.png)
+
+### 4. Product Type Performance
+
+| Product Type | Revenue |
+|---|---:|
+| Ice Cream | 1,379,573.20 |
+| Tasty Treats | 840,113.65 |
+| Frozen Yogurt | 650,077.50 |
+| Popsicles | 384,812.60 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Ice Cream — 1,379,573.20
+- Lowest: Popsicles — 384,812.60
+- Ice Cream accounted for approximately **42.4%** of total revenue.
+
+![Revenue by Product Type](assets/product-analysis.png)
+
+### 5. Yearly Sales Performance
+
+| Year | Revenue |
+|---|---:|
+| 2013 | 1,008,662.75 |
+| 2014 | 1,138,686.00 |
+| 2015 | 1,107,228.20 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest year:** 2014 — 1,138,686.00
+- Revenue increased by approximately **12.9%** from 2013 to 2014.
+- Revenue then declined by approximately **2.8%** from 2014 to 2015.
+
+![Revenue by Year](assets/yearly-analysis.png)
+
+### 6. Monthly Sales Performance
+
+| Month | Revenue |
+|---|---:|
+| April | 640,494.40 |
+| February | 521,344.75 |
+| January | 513,336.00 |
+| May | 428,512.40 |
+| March | 423,204.70 |
+| November | 383,151.70 |
+| December | 344,533.00 |
+
+- 🥇 **Highest recorded month:** April — 640,494.40
+- **Lowest recorded month:** December — 344,533.00
+
+![Revenue by Month](assets/monthly-analysis.png)
+
+> ⚠️ **Monthly coverage note:** Only seven months appear in the dataset. June through October have no records, so these results describe the months represented in the data—not a complete 12-month trend.
+
+---
+
+## 📊 Dashboard
+
+A dashboard was created in the workbook identified in the source documentation as `sales-performance-dashboard.xlsx`. It brings together key indicators and revenue breakdowns in one visual interface.
+
+### Dashboard KPIs
+
+| KPI | Value |
+|---|---:|
+| Total Sales | 3,254,576.95 |
+| Total Units | 2,322,594 |
+| Total Transactions | 444 |
+
+### Dashboard Visualizations
+
+- Revenue by month
+- Revenue by year
+- Revenue by region
+- Revenue by salesperson
+- Revenue by product type
+
+### Dashboard Preview
+
+![Sales Performance Dashboard](assets/sales-performance-dashboard.png)
+
+The dashboard makes it easier to review overall sales, transaction volume, units sold, and performance across the available business categories without manually examining each summary table.
+
+---
+
+## 💡 Key Insights
+
+1. **Overall revenue:** The dataset generated **3,254,576.95** across 444 transactions.
+2. **Regional performance:** Central was the leading region, generating **1,391,555.30**—approximately 42.8% of total revenue.
+3. **Salesperson performance:** Parker recorded the highest salesperson revenue at **760,122.80**.
+4. **Product performance:** Ice Cream led product types with **1,379,573.20**, approximately 42.4% of total revenue.
+5. **Annual performance:** 2014 had the highest annual revenue at **1,138,686.00**.
+6. **Monthly performance:** April was the highest-performing month among the months represented, with **640,494.40**.
+
+## ✅ Recommendations
+
+- **Examine the Central region:** Investigate the customer, product, salesperson, and transaction factors that may contribute to its strong performance.
+- **Investigate lower-performing regions:** Explore whether South's lower revenue relates to transaction volume, customer count, product mix, sales coverage, or market conditions.
+- **Monitor product performance:** Track Ice Cream demand, inventory, pricing, and regional performance while investigating the lower revenue from other product types.
+- **Review salesperson performance in context:** Compare revenue alongside transaction count, units sold, average transaction value, customer count, and region.
+- **Investigate monthly patterns:** Examine promotions, seasonality, customer behavior, and product availability that could help explain April's higher recorded revenue.
+
+These are investigation points suggested by the observed results; the dataset does not establish the causes of the performance differences.
+
+---
+
+## ⚠️ Limitations
+
+- **Incomplete monthly coverage:** The dataset contains January, February, March, April, May, November, and December. June through October have no records.
+- **Limited business variables:** Customer information, marketing expenditure, cost of goods sold, profit, discounts, inventory, and competitor information are not included.
+- **Historical data:** The analysis covers 2013–2015 and describes the supplied historical records.
+- **Limited explanatory context:** The dataset shows differences among regions, salespeople, and products but does not explain why those differences occurred.
+
+---
+
+## 🧰 Tools and Skills
+
 ### Tools Used
-•	Microsoft Excel
-•	Excel formulas
-•	PivotTables
-•	Pivot Charts
-•	Excel Dashboard
-•	Data sorting and filtering
-•	Data validation/checking
-### Skills Demonstrated
-•	Data inspection
-•	Data quality checking
-•	Duplicate checking
-•	Missing-value checking
-•	Data-type verification
-•	Revenue analysis
-•	Comparative analysis
-•	Time-based analysis
-•	KPI calculation
-•	Data visualization
-•	Dashboard design
-•	Business insight generation
-•	Report writing
+- Microsoft Excel
+- Excel formulas
+- PivotTables
+- PivotCharts
+- Excel dashboard
+- Data sorting and filtering
+- Data validation and checking
 
-## APPENDIX
-The following appendices provide supporting screenshots from the Excel workbook, including the raw data, analysis outputs, and final dashboard.
+### Skills Demonstrated
+- Data inspection and preparation
+- Data-quality checks
+- Missing-value and duplicate checks
+- Data-type verification
+- Revenue and comparative analysis
+- Time-based analysis
+- KPI calculation
+- Data visualization
+- Dashboard design
+- Business insight generation
+- Technical documentation and report writing
+
+---
+
+## 🖼️ Project Screenshots
+
+### Raw Dataset
+![Raw Sales Dataset](assets/raw-sales-dataset.png)
+
+### Prepared Sales Data
+![Prepared Sales Data](assets/prepared-sales-data.png)
+
+### Regional Analysis
+![Regional Analysis](assets/regional-analysis.png)
+
+### Salesperson Analysis
+![Salesperson Analysis](assets/salesperson-analysis.png)
+
+### Product Analysis
+![Product Analysis](assets/product-analysis.png)
+
+### Yearly Analysis
+![Yearly Analysis](assets/yearly-analysis.png)
+
+### Monthly Analysis
+![Monthly Analysis](assets/monthly-analysis.png)
+
+### Final Dashboard
+![Final Dashboard](assets/sales-performance-dashboard.png)
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how Microsoft Excel can transform raw sales transactions into useful business information through data preparation, PivotTables, charts, and dashboard development.
+
+The analysis covered 444 transactions from 2013–2015 and found total sales of **3,254,576.95** and total units sold of **2,322,594**. Central was the highest-revenue region, Parker was the highest-revenue salesperson, Ice Cream was the leading product type, 2014 was the strongest year, and April was the highest-performing recorded month.
+
+The completed dashboard provides a consolidated view of these findings and demonstrates the value of Excel for business analysis and data visualization.
+
+---
+
+
+
   
 
 

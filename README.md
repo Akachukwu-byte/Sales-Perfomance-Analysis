@@ -1,6 +1,6 @@
 # SALES PERFORMANCE ANALYSIS
 
-## Project Overview
+## PROJECT OVERVIEW
 This project focuses on the analysis of historical sales data using Microsoft Excel. The purpose of the project was to transform transactional sales data into meaningful information that could be used to understand revenue performance across different regions, salespeople, product types, years, and months.
 The original dataset contained sales transactions covering the period from 2013 to 2015. Each transaction included information about the year, month, product type, salesperson, region, sales value, units sold, and order number.
 The dataset was reviewed and prepared before being analyzed using Excel. PivotTables and charts were used to summarize the data and identify patterns in sales performance. A dashboard was subsequently developed to provide a consolidated visual representation of the major performance indicators and sales trends.
@@ -184,7 +184,6 @@ Limited Context for Performance Differences — The dataset shows differences be
 ## Appendix
 The following appendices provide supporting screenshots from the Excel workbook, including the raw data, analysis outputs, and final dashboard.
   
-
 
 
 

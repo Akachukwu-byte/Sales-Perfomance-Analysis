@@ -1,3 +1,4 @@
+![cover_photo](cover_image.png)
 # SALES PERFORMANCE ANALYSIS
 
 ## PROJECT OVERVIEW

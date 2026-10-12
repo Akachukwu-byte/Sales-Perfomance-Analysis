@@ -16,7 +16,7 @@
 
 ## 📌 Table of Contents
 
-- [🔎 Project Overview](#-project-overview)
+ [🔎 Project Overview](#-project-overview)
 - [🎯 Project Objectives](#-project-objectives)
 - [❓ Business Questions](#-business-questions)
 - [🗂️ Dataset Description](#️-dataset-description)

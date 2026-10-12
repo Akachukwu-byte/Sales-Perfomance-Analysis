@@ -3,7 +3,7 @@
 
 ### Excel-Based Data Analytics & Dashboard Project
 
-![Sales Performance Dashboard](assets/sales-performance-dashboard.png)
+![Sales Performance Dashboard](sales-dashboard.png)
 
 > A Microsoft Excel project that transforms historical sales transactions into useful business insights through data-quality checks, PivotTables, PivotCharts, and an interactive-style dashboard.
 
@@ -48,7 +48,6 @@ The supplied dataset contains **444 sales transactions** from 2013 to 2015. Each
 | 🧾 Total Transactions | **444** |
 | 🛒 Average Sales per Transaction | **7,330.13** |
 
-*Note: The source documentation does not specify a currency, so no currency symbol has been added.*
 
 ---
 
@@ -221,7 +220,7 @@ The dataset recorded **3,254,576.95** in total sales across 444 transactions. Av
 - Lowest: South — 505,968.95
 - Central contributed approximately **42.8%** of total revenue.
 
-![Revenue by Region](assets/regional-analysis.png)
+![Revenue by Region](sales-by-region.png)
 
 ### 3. Salesperson Performance
 
@@ -237,7 +236,7 @@ The dataset recorded **3,254,576.95** in total sales across 444 transactions. Av
 - 🥇 **Highest:** Parker — 760,122.80
 - Lowest: Pullen — 505,968.95
 
-![Revenue by Salesperson](assets/salesperson-analysis.png)
+![Revenue by Salesperson](sales-by-salesperson.png)
 
 ### 4. Product Type Performance
 
@@ -253,7 +252,7 @@ The dataset recorded **3,254,576.95** in total sales across 444 transactions. Av
 - Lowest: Popsicles — 384,812.60
 - Ice Cream accounted for approximately **42.4%** of total revenue.
 
-![Revenue by Product Type](assets/product-analysis.png)
+![Revenue by Product Type](revenue-by-type.png)
 
 ### 5. Yearly Sales Performance
 
@@ -268,7 +267,7 @@ The dataset recorded **3,254,576.95** in total sales across 444 transactions. Av
 - Revenue increased by approximately **12.9%** from 2013 to 2014.
 - Revenue then declined by approximately **2.8%** from 2014 to 2015.
 
-![Revenue by Year](assets/yearly-analysis.png)
+![Revenue by Year](revenue-by-year.png)
 
 ### 6. Monthly Sales Performance
 
@@ -285,7 +284,7 @@ The dataset recorded **3,254,576.95** in total sales across 444 transactions. Av
 - 🥇 **Highest recorded month:** April — 640,494.40
 - **Lowest recorded month:** December — 344,533.00
 
-![Revenue by Month](assets/monthly-analysis.png)
+![Revenue by Month](revenue-by-month.png)
 
 > ⚠️ **Monthly coverage note:** Only seven months appear in the dataset. June through October have no records, so these results describe the months represented in the data—not a complete 12-month trend.
 
@@ -313,7 +312,7 @@ A dashboard was created in the workbook identified in the source documentation a
 
 ### Dashboard Preview
 
-![Sales Performance Dashboard](assets/sales-performance-dashboard.png)
+![Sales Performance Dashboard](sales-dashboard.png)
 
 The dashboard makes it easier to review overall sales, transaction volume, units sold, and performance across the available business categories without manually examining each summary table.
 
@@ -378,28 +377,28 @@ These are investigation points suggested by the observed results; the dataset do
 ## 🖼️ Project Screenshots
 
 ### Raw Dataset
-![Raw Sales Dataset](assets/raw-sales-dataset.png)
+![Raw Sales Dataset](AppendixA.png)
 
 ### Prepared Sales Data
-![Prepared Sales Data](assets/prepared-sales-data.png)
+![Prepared Sales Data](AppendixB.png)
 
 ### Regional Analysis
-![Regional Analysis](assets/regional-analysis.png)
+![Regional Analysis](sales-by-region-pivottable.png)
 
 ### Salesperson Analysis
-![Salesperson Analysis](assets/salesperson-analysis.png)
+![Salesperson Analysis](sales-by-salesperson.png)
 
 ### Product Analysis
-![Product Analysis](assets/product-analysis.png)
+![Product Analysis](revenue-by-type.png)
 
 ### Yearly Analysis
-![Yearly Analysis](assets/yearly-analysis.png)
+![Yearly Analysis](revenue-by-year.png)
 
 ### Monthly Analysis
-![Monthly Analysis](assets/monthly-analysis.png)
+![Monthly Analysis](revenue-by-month.png)
 
 ### Final Dashboard
-![Final Dashboard](assets/sales-performance-dashboard.png)
+![Final Dashboard](sales-dashboard.png)
 
 ---
 

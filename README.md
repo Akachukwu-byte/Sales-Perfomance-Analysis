@@ -21,5 +21,44 @@ The purpose of this project is to analyze historical sales performance and provi
 •	Monthly sales patterns
 •	Transaction and unit volumes
 
+## Project Objectives
+1.	Examine the structure and quality of the sales dataset.
+2.	Organize the sales information for analysis.
+3.	Calculate total sales revenue.
+4.	Determine the total number of units sold.
+5.	Determine the total number of transactions.
+6.	Analyze revenue by region.
+7.	Analyze revenue by salesperson.
+8.	Analyze revenue by product type.
+9.	Compare sales performance across years.
+10.	Analyze monthly revenue performance.
+11.	Identify the highest-performing categories.
+12.	Create charts that communicate the findings clearly.
+13.	Develop a sales-performance dashboard.
+14.	Generate useful business insights from the analysis.
+
+## Business Questions
+### Overall Performance
+What is the total revenue generated?
+2.	How many units were sold?
+3.	How many transactions were recorded?
+### Regional Analysis
+4.	Which region generated the highest revenue?
+5.	Which region generated the lowest revenue?
+6.	How is revenue distributed across the regions?
+### Salesperson Analysis
+7.	Which salesperson generated the highest revenue?
+8.	Which salesperson generated the lowest revenue?
+9.	How does revenue compare across salespeople?
+### Product Analysis
+10.	Which product type generated the highest revenue?
+11.	Which product type generated the lowest revenue?
+12.	How does revenue compare across product types?
+### Time Analysis
+13.	Which year generated the highest revenue?
+14.	Which month generated the highest revenue?
+15.	How did revenue change across the analyzed years?
+
+
 
 

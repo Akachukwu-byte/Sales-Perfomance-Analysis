@@ -124,7 +124,7 @@ The main analytical metric was Sales/Revenue. Revenue was analyzed across region
 
 ### Salesperson Performance
 
-![Salesperson Performance](sales-by-sale
+![Salesperson Performance](sales-by-salesperson.png)
 
 
 ## DASHBOARD DEVELOPMENT

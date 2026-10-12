@@ -17,18 +17,31 @@
 ## 📌 Table of Contents
 
  [🔎 Project Overview](#-project-overview)
+ 
  [🎯 Project Objectives](#-project-objectives)
+ 
  [❓ Business Questions](#-business-questions)
+ 
  [🗂️ Dataset Description](#️-dataset-description)
+ 
  [🧹 Data Cleaning and Preparation](#-data-cleaning-and-preparation)
+ 
  [⚙️ Analysis Methodology](#️-analysis-methodology)
+ 
  [📈 Analysis and Findings](#-analysis-and-findings)
+ 
  [📊 Dashboard](#-dashboard)
+ 
  [💡 Key Insights](#-key-insights)
+ 
  [✅ Recommendations](#-recommendations)
+ 
  [⚠️ Limitations](#️-limitations)
+ 
  [🧰 Tools and Skills](#-tools-and-skills)
+ 
  [🖼️ Project Screenshots](#️-project-screenshots)
+ 
  [🏁 Conclusion](#-conclusion)
 
 ---

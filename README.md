@@ -120,6 +120,12 @@ The main analytical metric was Sales/Revenue. Revenue was analyzed across region
 
 ### Regional Sales Performance 
 
+![Regional Sales Perfomanc](sales-by-region-pivottable.png)
+
+### Salesperson Performance
+
+![Salesperson Performance](sales-by-sale
+
 
 ## DASHBOARD DEVELOPMENT
 A dedicated dashboard was created in sales-performance-dashboard.xlsx. The dashboard consolidates the major findings into a single visual interface, combining key performance indicators with revenue analysis by month, year, region, salesperson, and product type.
